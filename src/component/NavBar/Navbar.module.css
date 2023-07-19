@@ -1,0 +1,24 @@
+.Container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #1e51dd;
+  color: #fff;
+}
+
+.Container a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 0.8rem;
+  color: #fff;
+}
+
+.Container a:hover {
+  font-weight: 600;
+}
+
+a.active {
+  color: #f7a664;
+}

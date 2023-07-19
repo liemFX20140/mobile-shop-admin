@@ -1,0 +1,177 @@
+.container {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #ccc;
+  width: fit-content;
+  height: 100vh;
+  justify-self: center;
+  /* padding-left: 1rem; */
+}
+.roomsHead {
+  align-self: center;
+}
+
+.rooms {
+  display: flex;
+  flex-direction: column;
+  max-width: 12rem;
+}
+.rooms button {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  padding: 0.8rem;
+}
+
+.chatWindow {
+  width: 95%;
+  /* overflow-y: scroll; */
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.messages {
+  height: 85vh;
+  overflow-y: scroll;
+}
+
+.inputMessage {
+  /* position: fixed; */
+  bottom: 1rem;
+  display: block;
+  width: 80%;
+}
+
+.inputMessage input {
+  height: 2rem;
+  margin-left: 1rem;
+}
+.inputMessage button {
+  height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  background-color: #48b0f7;
+  border: none;
+  color: #fff;
+}
+
+.media {
+  padding: 0.2rem 0.2rem;
+}
+
+.mediaChat {
+  padding-right: 64px;
+  margin-bottom: 0;
+}
+
+.media {
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+}
+
+.media .avatar {
+  flex-shrink: 0;
+}
+
+.avatar {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #f5f6f7;
+  color: #8b95a5;
+  text-transform: uppercase;
+}
+
+.mediaChat .mediaBody {
+  -webkit-box-flex: initial;
+  flex: initial;
+  display: table;
+}
+
+.mediaBody {
+  min-width: 0;
+  width: 100%;
+}
+
+.mediaChat .mediaBody p {
+  position: relative;
+  margin: 4px 0;
+  background-color: #f5f6f7;
+  border-radius: 3px;
+  font-weight: 100;
+  color: #9b9b9b;
+  width: fit-content;
+}
+
+.media > * {
+  margin: 0 8px;
+}
+
+.mediaChat .mediaBody p.meta {
+  background-color: transparent !important;
+  padding: 0;
+  opacity: 0.8;
+}
+
+.media {
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+}
+
+.mediaChat.mediaChatReverse {
+  padding-right: 12px;
+  padding-left: 64px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  flex-direction: row-reverse;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.mediaChat {
+  padding-right: 64px;
+  margin-bottom: 0;
+}
+
+.media {
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+}
+
+.mediaChat.mediaChatReverse .mediaBody p {
+  float: right;
+  clear: right;
+  background-color: #48b0f7;
+  color: #fff;
+  width: fit-content;
+  margin-right: 1rem;
+}
+
+.mediaChat .mediaBody p {
+  position: relative;
+  padding: 6px 8px;
+  margin: 4px 0;
+  background-color: #f5f6f7;
+  border-radius: 3px;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}

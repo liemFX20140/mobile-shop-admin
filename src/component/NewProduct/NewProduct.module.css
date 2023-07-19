@@ -1,0 +1,66 @@
+.Container {
+}
+
+.form {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+}
+
+.firstRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form input {
+  display: block;
+  width: 80%;
+  padding: 0.2rem;
+  margin: 0.2rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.form input::placeholder {
+  color: #bbb;
+}
+
+.form label {
+  margin: 0.2rem;
+}
+
+.firstCol,
+.SecCol {
+  width: 50%;
+}
+
+.Container textarea {
+  margin: 1rem;
+  overflow: auto;
+}
+
+.Container select {
+  margin: 1rem;
+}
+
+.Container button {
+  width: 8rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  color: #fff;
+  background-color: green;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.Container h3 {
+  margin: 1rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #1e51dd;
+}

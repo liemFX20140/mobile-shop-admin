@@ -1,0 +1,70 @@
+.Container {
+  display: flex;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  padding-left: 0.5rem;
+  border: 1px solid #d7d7d7;
+  color: #602ee7;
+}
+
+.sideBar p {
+  text-transform: uppercase;
+  color: #ccc;
+  font-size: 0.8rem;
+
+  padding: 1rem 0.3rem;
+}
+.sideBar button {
+  font-size: 1.1rem;
+  text-align: left;
+  padding-left: 1.3rem;
+  background-color: #fff;
+  border: none;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.sideBar h2 {
+  /* text-transform: uppercase; */
+  font-weight: 400;
+  text-align: center;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.InfoBoard {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  padding: 0.5rem;
+  /* height: 20vh; */
+}
+
+.InfoCard {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 3px 3px #eee;
+  height: auto;
+}
+
+.InfoCard h4 {
+  text-transform: uppercase;
+  padding: 0.5rem;
+  color: #444;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.InfoCard p {
+  padding-left: 0.5rem;
+  font-size: 1.3rem;
+  display: block;
+  padding-bottom: 1.3rem;
+}
+
+.dashBoard {
+  display: flex;
+  flex-direction: column;
+}
